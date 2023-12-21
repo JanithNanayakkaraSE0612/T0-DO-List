@@ -5,8 +5,10 @@
 }
 
 body {
-    background-color: mediumslateblue;
-    color: white;
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(127, 127, 64);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
@@ -34,7 +36,7 @@ form button {
 }
 
 form button {
-    color: rgb(255, 200, 0);
+    color: rgb(127, 127, 64);
     background: white;
     cursor: pointer;
     transition: all 0.3 ease;
@@ -43,7 +45,7 @@ form button {
 
 form button:hover {
     color: white;
-    background: rgb(255, 200, 0);
+    background: rgb(237, 237, 109);
 }
 
 .fa-plus-circle {
@@ -133,7 +135,7 @@ select {
 }
 
 select {
-    color:rgb(255, 200, 0);
+    color:rgb(127, 127, 64);
     width: 10rem;
     height: 3.2rem;
     cursor: pointer;
